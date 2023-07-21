@@ -1,0 +1,26 @@
+nav {
+	background: #fff;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: centers;
+}
+
+.app-logo {
+	max-height: 18px;
+	width: auto;
+}
+
+.nav-link {
+	white-space: nowrap;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link.active {
+	color: #0a7a49 !important;
+}

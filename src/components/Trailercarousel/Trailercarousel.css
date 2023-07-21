@@ -1,0 +1,21 @@
+.carousel-indicators {
+	margin-bottom: 5px;
+}
+
+.carousel-indicators [data-bs-target] {
+	overflow: hidden;
+}
+
+.carousel-item {
+	padding-top: 56.25%;
+	height: 0px;
+	position: relative;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}

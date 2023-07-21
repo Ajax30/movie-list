@@ -1,0 +1,61 @@
+.poster-container img {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 0.5rem;
+}
+
+.movie-title {
+	font-size: 2rem;
+	font-weight: 900;
+}
+
+.section-title {
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+.badge {
+	margin-right: 5px;
+	font-weight: 400;
+	font-size: 0.7rem;
+	border-radius: 3px;
+}
+
+.badge:last-child {
+	margin-right: 0;
+}
+
+.user-score {
+	display: flex;
+	align-items: center;
+}
+
+.user-score .score {
+	width: 28px;
+	height: 28px;
+	margin-left: 5px;
+	border-radius: 50%;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+	font-size: 10px;
+	color: #fff;
+	background: #111;
+	line-height: 1;
+	font-weight: 500;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.user-score .score.good {
+	background: #0b8a52;
+	color: #fff;
+}
+
+.user-score .score.average {
+	background: #ffc003;
+	color: #222;
+}
+
+.user-score .score.bad {
+	background: #ff1d30;
+	color: #fff;
+}

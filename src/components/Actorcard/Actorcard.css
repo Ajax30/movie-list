@@ -1,0 +1,22 @@
+.actor-card {
+  border-color: #e9ecef;
+  overflow: hidden;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+.actor-card .card-title {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #232323;
+}
+
+.actor-card .card-subtitle {
+  color: #333;
+  font-size: 0.9rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+}

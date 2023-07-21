@@ -1,0 +1,17 @@
+@import '/node_modules/react-perfect-scrollbar/dist/css/styles.css';
+
+/* App layout */
+
+.App {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Typography */
+.page-title {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+}

@@ -1,0 +1,14 @@
+.actor-name {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.known-for [class*="col-"] {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.known-for .score {
+  display: none;
+}
