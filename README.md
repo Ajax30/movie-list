@@ -8,11 +8,11 @@
 
 ### Homepage
 
-![Homepage view](https://github.com/Ajax30/movues/blob/main/screenshots/homepage.png)
+![Homepage view](https://github.com/Ajax30/movie-list/blob/main/screenshots/homepage.png)
 
 ### Movie details
 
-![Movie details view](https://github.com/Ajax30/movues/blob/main/screenshots/movie-details.png)
+![Movie details view](https://github.com/Ajax30/movie-list/blob/main/screenshots/movie-details.png)
 
 ## Available Scripts
 
