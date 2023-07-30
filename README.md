@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# React Movies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What it is
+
+**React Movies** is an SPA made with React 18 and The Movie Database (TMDB) API.
+
+## Screenshots
+
+### Homepage
+
+![Homepage view](https://github.com/Ajax30/movues/blob/main/screenshots/homepage.png)
+
+### Movie details
+
+![Movie details view](https://github.com/Ajax30/movues/blob/main/screenshots/movie-details.png)
 
 ## Available Scripts
 
