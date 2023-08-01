@@ -5,6 +5,7 @@ import axios from 'axios';
 import Genre from '../Genre/Genre';
 import TrailerCarousel from '../Trailercarousel/Trailercarousel';
 import ActorCard from '../Actorcard/Actorcard';
+import { withTransition } from "../../transition";
 
 function Moviedetails() {
 
@@ -140,4 +141,4 @@ function Moviedetails() {
   );
 }
 
-export default Moviedetails;
+export default withTransition(Moviedetails);

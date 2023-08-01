@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import axios from 'axios';
 import './Movielist.css';
 import Moviecard from '../Moviecard/Moviecard';
+import { withTransition } from "../../transition";
 
 function Movielist({ page_title, listMovies }) {
 
@@ -43,4 +44,4 @@ function Movielist({ page_title, listMovies }) {
 	);
 }
 
-export default Movielist;
+export default withTransition(Movielist);
