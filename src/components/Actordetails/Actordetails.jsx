@@ -4,6 +4,7 @@ import axios from 'axios';
 import dateTimeFormatter from "../../utils/datetime-formatter";
 import './Actordetails.css';
 import Moviecard from '../Moviecard/Moviecard';
+import { withTransition } from "../../transition";
 
 function Actordetails() {
 
@@ -81,5 +82,5 @@ function Actordetails() {
   );
 }
 
-export default Actordetails;
+export default withTransition(Actordetails);
 
