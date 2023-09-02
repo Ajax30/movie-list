@@ -49,6 +49,7 @@ function Searchbox() {
 
   useEffect(() => {
 		document.addEventListener('click', handleOutsideClick, true);
+        return () => window.removeEventListener("click",handleOutsideClick);
 	}, [])
 
   return (
