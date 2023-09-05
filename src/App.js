@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Topbar from './components/Topbar/Topbar';
 import Footer from './components/Footer/Footer';
 import Movielist from './components/Movielist/Movielist';
@@ -16,6 +16,7 @@ function App() {
           <Route path="/top-rated" element={<Movielist page_title="Top rated" listMovies="top_rated" />} />
           <Route path="/movie/:id" element={<Moviedetails />} />
           <Route path="/actor/:id" element={<Actordetails />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </div>
       <Footer />
