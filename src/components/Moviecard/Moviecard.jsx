@@ -53,7 +53,7 @@ function Moviecard({movie}) {
 				<div className="card-content">
 					<h2 className="card-title">{ movie.title }</h2>
 					<p className="card-desc">{ movie.overview }</p>
-					<span className="score">{ movie.vote_average }</span>
+					<span className="score">{ movie.vote_average.toFixed(2) }</span>
 
 				</div>
 
